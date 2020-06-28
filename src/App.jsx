@@ -68,6 +68,12 @@ class App extends React.Component {
             >
               Grades
             </button>
+            <button
+              className="btn btn-primary"
+              onClick={() => this.handleButtonClicked("grades")}
+            >
+              Test
+            </button>
           </div>
         </nav>
         {tabChoice}
